@@ -75,8 +75,6 @@ def MEC_experiment():
     print(f"Average time per experiment: {round(np.mean(experiment_time), 3)} seconds")
 
     plot_output(output)
-    print(output.shape)
-    print(output)
 
 if __name__ == "__main__":
     
