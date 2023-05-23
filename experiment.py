@@ -41,8 +41,8 @@ def simple_experiment():
 
 def MEC_experiment():
     
-    num_episodes_train = 10000
-    num_episodes_test = 10000
+    num_episodes_train = 100000
+    num_episodes_test = 100000
 
     #agent learning parameters 
     alpha = 0.1
