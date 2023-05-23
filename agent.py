@@ -42,10 +42,7 @@ class Agent:
                 self.update_q_table(observation[0], action, reward, next_observation[0])
                 observation = next_observation
             
-            if (episode + 1) % 100 == 0:
-                print("Episode:", episode + 1)
-
-        print("Training completed.")
+        # print("Training completed.")
         
     def test(self, num_episodes):
 
@@ -67,7 +64,7 @@ class Agent:
             
             num_actions[observation[1]] += 1
         
-        print("Testing completed.")
+        # print("Testing completed.")
 
         return num_actions
 
