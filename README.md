@@ -7,7 +7,8 @@ to execut the code, run the following command in the terminal:
 ```python experiment.py```
 
 at first simple_experiment is being executed with parameters:
-```credence = 0.1
+```
+credence = 0.1
 num_bystanders = 10
 num_episodes_train = 100
 num_episodes_test = 100 
