@@ -56,15 +56,7 @@ class TrolleyEnv(gym.Env):
         
         if self.trolley_pos == 2:
             
-            #add condition for boosted deontology
-            # reward = ((self.credence * self._get_deontology_reward(self.num_people_on_track)) + 
-            #           ((1 - self.credence) * self._get_utilitarianism_reward(self.num_people_on_track)))
-
-            
-            # reward_denotology = self._get_deontology_reward(self.num_people_on_track)
-            reward_denotology = self._get_deontology_reward(10)
-
-
+            reward_denotology = self._get_deontology_reward(self.num_people_on_track)
             reward_utilitarianism = self._get_utilitarianism_reward(self.num_people_on_track)
 
             reward = (self.credence * reward_denotology) + ((1 - self.credence) * reward_utilitarianism)
