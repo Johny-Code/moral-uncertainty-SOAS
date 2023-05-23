@@ -1,7 +1,5 @@
 # moral-uncertainty-SOAS
 
-# moral-uncertainty-SOAS
-
 to execut the code, run the following command in the terminal:
 
 ```python experiment.py```
